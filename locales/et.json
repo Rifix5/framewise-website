@@ -1,0 +1,158 @@
+{
+  "nav": {
+    "services": "Teenused",
+    "howItWorks": "Kuidas see toimib",
+    "pricing": "Hinnad",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "headline": "Ehitame digitaalse taristu sinu äri taha.",
+    "subheadline": "Veebilehed, AI lahendused ja integratsioonid — tehtud toimima, tehtud kestma.",
+    "cta": "Võta ühendust",
+    "ctaSecondary": "Vaata teenuseid"
+  },
+  "services": {
+    "title": "Mida me teeme",
+    "cards": [
+      {
+        "title": "Veebilehtede ehitamine",
+        "description": "Kohandatud veebilehed, mis on selged, kiired ja toimivad."
+      },
+      {
+        "title": "AI nõustamine",
+        "description": "Aitame ettevõtetel AI-d oma töövooga integreerida — strateegiast teostuseni."
+      },
+      {
+        "title": "Kohandatud API arendus",
+        "description": "Vajad spetsiifilist tööriista? Ehitame API-d täpselt sinu vajaduste järgi."
+      },
+      {
+        "title": "Integratsioonid ja ühendused",
+        "description": "Ühendame sinu tööriistad ja platvormid, et kõik toimiks sujuvalt."
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "Kuidas see toimib",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Lähteülesanne",
+        "description": "Räägi meile, mida vajad. Küsime õiged küsimused ja koostame selge plaani."
+      },
+      {
+        "number": "02",
+        "title": "Ehitamine",
+        "description": "Asume tööle. Puhas kood, selge disain, regulaarsed uuendused."
+      },
+      {
+        "number": "03",
+        "title": "Käivitamine",
+        "description": "Käivitame, testime ja veendume, et kõik töötab. Seejärel anname üle või jätkame hooldusega."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Hinnad",
+    "note": "Näidatud hinnad on lõplikud — käibemaks ei rakendu.",
+    "plans": [
+      {
+        "name": "Starter",
+        "price": "€400",
+        "recommended": false,
+        "features": [
+          "Kuni 5 lehte",
+          "Mobiilisõbralik",
+          "Põhiline SEO seadistus",
+          "1 muudatusring",
+          "Tarneaeg: 3–5 päeva"
+        ],
+        "cta": "Alusta"
+      },
+      {
+        "name": "Business",
+        "price": "€800",
+        "recommended": true,
+        "features": [
+          "Kohandatud disain, kuni 10 lehte",
+          "CMS integratsioon",
+          "Kontaktivorm + integratsioonid",
+          "2 muudatusringi",
+          "Tarneaeg: 5–7 päeva"
+        ],
+        "cta": "Alusta"
+      },
+      {
+        "name": "Kohandatud",
+        "price": "Räägime",
+        "recommended": false,
+        "features": [
+          "AI tööriistade arendus",
+          "Kohandatud API-d",
+          "Keerulised integratsioonid",
+          "Pidev hooldus",
+          "Hind projekti põhiselt"
+        ],
+        "cta": "Võta ühendust"
+      }
+    ],
+    "otherServices": {
+      "title": "Muud teenused",
+      "note": "Minimaalne arvestus: 1 tund. Retainer klientidel kasutamata tunnid järgmisse kuusse ei kandu.",
+      "cards": [
+        {
+          "title": "AI nõustamine",
+          "price": "€45/h",
+          "description": "Nõustamine selle kohta, kuidas AI-d oma ärisse integreerida. Selgitame välja, mis on võimalik ja kuidas seda teostada — ilma keerulise žargoonita.",
+          "cta": "Võta ühendust"
+        },
+        {
+          "title": "IT tugi ja hooldus",
+          "price": "€45/h",
+          "description": "Midagi läks katki, vajab uuendamist või sul on lihtsalt küsimus — oleme kohal. Veebilehe muudatused, parandused ja tehniline tugi tunnitasuga.",
+          "cta": "Võta ühendust"
+        },
+        {
+          "title": "Kuupakett",
+          "price": "alates €80/kuus",
+          "description": "Kuni 2 tundi tuge kuus — veebilehe uuendused, parandused, väiksed muudatused ja eelisjärjekorras vastamine. Igakuine kindel hind, ei mingeid üllatusi. Ideaalne ettevõtetele, kes tahavad kindlust ilma täiskohaga IT-inimeseta.",
+          "cta": "Võta ühendust"
+        }
+      ]
+    }
+  },
+  "whyUs": {
+    "title": "Miks Framewise",
+    "items": [
+      {
+        "title": "Kiire tarnimine",
+        "description": "Enamik projekte valmib 1–3 nädalaga."
+      },
+      {
+        "title": "Ehitatud AI-ga",
+        "description": "Kiirem, targem, soodsam."
+      },
+      {
+        "title": "Otsene suhtlus",
+        "description": "Ilma vahendajateta."
+      },
+      {
+        "title": "Eesti ettevõte, Euroopa standardid.",
+        "description": ""
+      }
+    ]
+  },
+  "contact": {
+    "title": "Võta ühendust",
+    "subtitle": "Räägi meile oma projektist. Vastame 24 tunni jooksul.",
+    "namePlaceholder": "Nimi",
+    "emailPlaceholder": "Email",
+    "messagePlaceholder": "Sõnum",
+    "send": "Saada",
+    "success": "Tänan! Vastame 24 tunni jooksul."
+  },
+  "footer": {
+    "company": "Framewise OÜ",
+    "copyright": "© 2026 Framewise OÜ"
+  }
+}

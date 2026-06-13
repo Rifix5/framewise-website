@@ -1,0 +1,158 @@
+{
+  "nav": {
+    "services": "Services",
+    "howItWorks": "How it works",
+    "pricing": "Pricing",
+    "contact": "Contact"
+  },
+  "hero": {
+    "headline": "We build the digital infrastructure behind your business.",
+    "subheadline": "Websites, AI tools, and custom integrations — built to work, built to last.",
+    "cta": "Let's talk",
+    "ctaSecondary": "See what we do"
+  },
+  "services": {
+    "title": "What we do",
+    "cards": [
+      {
+        "title": "Website Building",
+        "description": "Custom websites built for clarity, speed, and results. From landing pages to full business sites."
+      },
+      {
+        "title": "AI Consulting",
+        "description": "We help businesses integrate AI into their workflow — from strategy to working implementation."
+      },
+      {
+        "title": "Custom API Development",
+        "description": "Need a specific tool built from scratch? We design and build APIs tailored exactly to your needs."
+      },
+      {
+        "title": "Integrations & Connectors",
+        "description": "We connect your tools and platforms so your systems work together without friction."
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "How it works",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Brief",
+        "description": "Tell us what you need. We listen, ask the right questions, and map out a clear plan."
+      },
+      {
+        "number": "02",
+        "title": "Build",
+        "description": "We get to work. Clean code, sharp design, regular updates along the way."
+      },
+      {
+        "number": "03",
+        "title": "Deploy",
+        "description": "We launch, test, and make sure everything works. Then we hand it over — or keep it running for you."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Pricing",
+    "note": "Prices listed are final — VAT not applicable.",
+    "plans": [
+      {
+        "name": "Starter",
+        "price": "€400",
+        "recommended": false,
+        "features": [
+          "Up to 5 pages",
+          "Mobile responsive",
+          "Basic SEO setup",
+          "1 revision round",
+          "Delivery: 3–5 days"
+        ],
+        "cta": "Get started"
+      },
+      {
+        "name": "Business",
+        "price": "€800",
+        "recommended": true,
+        "features": [
+          "Custom design, up to 10 pages",
+          "CMS integration",
+          "Contact form + integrations",
+          "2 revision rounds",
+          "Delivery: 5–7 days"
+        ],
+        "cta": "Get started"
+      },
+      {
+        "name": "Custom",
+        "price": "Let's talk",
+        "recommended": false,
+        "features": [
+          "AI tool development",
+          "Custom APIs",
+          "Complex integrations",
+          "Ongoing maintenance",
+          "Priced per project"
+        ],
+        "cta": "Contact us"
+      }
+    ],
+    "otherServices": {
+      "title": "Other services",
+      "note": "Minimum billing: 1 hour. Hours do not roll over between months for retainer clients.",
+      "cards": [
+        {
+          "title": "AI Consulting",
+          "price": "€45/hr",
+          "description": "Strategic advice on how to integrate AI into your business. We map out what's possible, what makes sense, and how to implement it — without the jargon.",
+          "cta": "Get in touch"
+        },
+        {
+          "title": "IT Support & Maintenance",
+          "price": "€45/hr",
+          "description": "Something broke, needs updating, or you just have a question — we're available. Website changes, fixes, small improvements, and general tech support billed by the hour.",
+          "cta": "Get in touch"
+        },
+        {
+          "title": "Monthly Retainer",
+          "price": "from €80/month",
+          "description": "Up to 2 hours of support per month — website updates, fixes, small changes, and priority response. No invoice surprises, no waiting. Ideal for businesses that want peace of mind without a full-time IT person.",
+          "cta": "Get in touch"
+        }
+      ]
+    }
+  },
+  "whyUs": {
+    "title": "Why Framewise",
+    "items": [
+      {
+        "title": "Fast delivery",
+        "description": "Most projects done in 1–3 weeks."
+      },
+      {
+        "title": "Built with AI",
+        "description": "Faster, smarter, more cost-effective."
+      },
+      {
+        "title": "Direct communication",
+        "description": "No agency layers, no middlemen."
+      },
+      {
+        "title": "Estonian company, European standards.",
+        "description": ""
+      }
+    ]
+  },
+  "contact": {
+    "title": "Let's talk",
+    "subtitle": "Tell us about your project. We'll get back to you within 24 hours.",
+    "namePlaceholder": "Name",
+    "emailPlaceholder": "Email",
+    "messagePlaceholder": "Message",
+    "send": "Send",
+    "success": "Thanks! We'll get back to you within 24 hours."
+  },
+  "footer": {
+    "company": "Framewise OÜ",
+    "copyright": "© 2026 Framewise OÜ"
+  }
+}
