@@ -53,7 +53,7 @@
     ]
   },
   "pricing": {
-    "title": "Pricing",
+    "title": "Website Pricing",
     "note": "Prices listed are final — VAT not applicable.",
     "plans": [
       {
@@ -102,13 +102,13 @@
       "cards": [
         {
           "title": "AI Consulting",
-          "price": "€45/hr",
+          "price": "€60/hr",
           "description": "Strategic advice on how to integrate AI into your business. We map out what's possible, what makes sense, and how to implement it — without the jargon.",
           "cta": "Get in touch"
         },
         {
           "title": "IT Support & Maintenance",
-          "price": "€45/hr",
+          "price": "€60/hr",
           "description": "Something broke, needs updating, or you just have a question — we're available. Website changes, fixes, small improvements, and general tech support billed by the hour.",
           "cta": "Get in touch"
         },

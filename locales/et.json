@@ -53,7 +53,7 @@
     ]
   },
   "pricing": {
-    "title": "Hinnad",
+    "title": "Veebilehtede hinnad",
     "note": "Näidatud hinnad on lõplikud — käibemaks ei rakendu.",
     "plans": [
       {
@@ -102,13 +102,13 @@
       "cards": [
         {
           "title": "AI nõustamine",
-          "price": "€45/h",
+          "price": "€60/h",
           "description": "Nõustamine selle kohta, kuidas AI-d oma ärisse integreerida. Selgitame välja, mis on võimalik ja kuidas seda teostada — ilma keerulise žargoonita.",
           "cta": "Võta ühendust"
         },
         {
           "title": "IT tugi ja hooldus",
-          "price": "€45/h",
+          "price": "€60/h",
           "description": "Midagi läks katki, vajab uuendamist või sul on lihtsalt küsimus — oleme kohal. Veebilehe muudatused, parandused ja tehniline tugi tunnitasuga.",
           "cta": "Võta ühendust"
         },
