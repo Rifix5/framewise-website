@@ -9,11 +9,26 @@ export default function Contact() {
   const { t, language } = useLanguage()
   const [form, setForm] = useState({ name: '', email: '', message: '' })
   const [submitted, setSubmitted] = useState(false)
+  const [error, setError] = useState(false)
+  const [sending, setSending] = useState(false)
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    {/* TODO: Connect to email backend e.g. Resend or Nodemailer */}
-    setSubmitted(true)
+    setSending(true)
+    setError(false)
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(form),
+      })
+      if (!res.ok) throw new Error()
+      setSubmitted(true)
+    } catch {
+      setError(true)
+    } finally {
+      setSending(false)
+    }
   }
 
   const inputClass =
@@ -99,7 +114,10 @@ export default function Contact() {
                   onChange={(e) => setForm({ ...form, message: e.target.value })}
                   className={`${inputClass} resize-none`}
                 />
-                <button type="submit" className="btn-primary w-full py-3 text-sm">
+                {error && (
+                  <p className="text-red-400 text-sm text-center">{t.contact.error}</p>
+                )}
+                <button type="submit" disabled={sending} className="btn-primary w-full py-3 text-sm disabled:opacity-50">
                   {t.contact.send}
                 </button>
               </motion.form>
@@ -115,16 +133,14 @@ export default function Contact() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-5 text-zinc-400 text-sm"
         >
-          <a href="mailto:hello@framewise.ee" className="flex items-center gap-2 hover:text-white transition-colors">
+          <a href={`mailto:${t.contact.email}`} className="flex items-center gap-2 hover:text-white transition-colors">
             <Mail size={15} className="text-indigo-400" />
-            {/* TODO: Replace email */}
-            hello@framewise.ee
+            {t.contact.email}
           </a>
           <span className="hidden sm:block w-1 h-1 rounded-full bg-zinc-600" />
           <span className="flex items-center gap-2">
             <Phone size={15} className="text-indigo-400" />
-            {/* TODO: Replace phone */}
-            +372 XXXX XXXX
+            {t.contact.phone}
           </span>
         </motion.div>
       </div>

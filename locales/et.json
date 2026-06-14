@@ -149,7 +149,10 @@
     "emailPlaceholder": "Email",
     "messagePlaceholder": "Sõnum",
     "send": "Saada",
-    "success": "Tänan! Vastame 24 tunni jooksul."
+    "success": "Tänan! Vastame 24 tunni jooksul.",
+    "error": "Midagi läks valesti. Palun proovi uuesti.",
+    "email": "robert@framewise.ee",
+    "phone": "+372 5333 2064"
   },
   "footer": {
     "company": "Framewise OÜ",

@@ -149,7 +149,10 @@
     "emailPlaceholder": "Email",
     "messagePlaceholder": "Message",
     "send": "Send",
-    "success": "Thanks! We'll get back to you within 24 hours."
+    "success": "Thanks! We'll get back to you within 24 hours.",
+    "error": "Something went wrong. Please try again.",
+    "email": "robert@framewise.ee",
+    "phone": "+372 5333 2064"
   },
   "footer": {
     "company": "Framewise OÜ",

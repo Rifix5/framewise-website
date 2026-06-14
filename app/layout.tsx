@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import '@/styles/globals.css'
 import { LanguageProvider } from '@/context/LanguageContext'
+import { Analytics } from '@vercel/analytics/next'
 
 // TODO: Replace Inter with Geist once available via next/font/google in your Next.js version:
 // import { Geist } from 'next/font/google'
@@ -52,6 +53,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           />
         </div>
         <LanguageProvider>{children}</LanguageProvider>
+        <Analytics />
       </body>
     </html>
   )
