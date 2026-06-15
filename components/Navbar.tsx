@@ -42,7 +42,7 @@ export default function Navbar() {
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           className="flex items-center"
         >
-          <img src="/framewise-logo.svg" alt="Framewise" style={{ height: '32px', width: 'auto' }} />
+          <img src="/framewise-logo.svg" alt="Framewise" style={{ height: '48px', width: 'auto' }} />
         </button>
 
         {/* Desktop nav */}
