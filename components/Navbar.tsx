@@ -40,10 +40,9 @@ export default function Navbar() {
         {/* Logo */}
         <button
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          className="text-xl font-bold gradient-text tracking-tight"
+          className="flex items-center"
         >
-          {/* TODO: Replace with logo image */}
-          Framewise
+          <img src="/framewise-logo.svg" alt="Framewise" style={{ height: '32px', width: 'auto' }} />
         </button>
 
         {/* Desktop nav */}
