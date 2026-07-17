@@ -10,7 +10,7 @@ import { Analytics } from '@vercel/analytics/next'
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' })
 
 export const metadata: Metadata = {
-  title: 'Framewise OÜ — IT & AI Services',
+  title: 'Framewise — IT & AI Services',
   description:
     'Websites, AI tools, and custom integrations — built to work, built to last.',
   openGraph: {
